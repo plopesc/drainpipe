@@ -3,3 +3,4 @@
 ########
 .ddev/config.local.yaml
 .ddev/commands/web/task
+docker-compose.selenium.yaml
