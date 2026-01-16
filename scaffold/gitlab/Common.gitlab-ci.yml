@@ -17,5 +17,7 @@
 
 .drainpipe_setup_node:
   script:
+    - rm -rf /var/lib/nginx/logs
+    - apk upgrade
     - apk add --update nodejs npm
     - npm install -g yarn
